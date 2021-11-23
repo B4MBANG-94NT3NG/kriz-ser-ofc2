@@ -2427,27 +2427,6 @@ wa.me/${owner}`
 
 }
              
-     
-     case 'antidelete':
-     
-      if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
-           if (c === 'on'){
-             antidelete = false
-                    reply(`ᴀᴄᴛɪᴠᴇᴅ ᴀɴᴛɪᴅᴇʟᴇᴛᴇ`)
-                } else if (c === 'off'){
-                    antidelete = true
-                    reply(`ᴅᴇᴀᴄᴛɪᴠᴇᴅ ᴀɴᴛɪᴅᴇʟᴇᴛᴇ`)
-                } else if (!c) {
-                    anu =`𝑷𝑳𝑬𝑨𝑺𝑬 𝑪𝑯𝑶𝑶𝑺𝑬 𝑶𝑵𝑬\n\non: 𝑻𝑶 𝑨𝑪𝑻𝑰𝑽𝑬\noff: 𝑫𝑬𝑨𝑪𝑻𝑰𝑽𝑬`
-const buttons = [{buttonId: 'on', buttonText: {displayText: '𝑶𝑵'}, type: 1},{buttonId: 'off', buttonText: {displayText: '𝑶𝑭𝑭'}, type: 1}]
-const buttonMessage = {
-    contentText: `${anu}`,
-    footerText: '*_ꪶ͢ᴋʀɪᴢꜱᴇʀ ʙʏ ᴋʀɪꜱʜɴᴀᴅᴀꜱꫂ⁩_*',
-    buttons: buttons,
-    headerType: 1
-}
-await bosco.sendMessage(from, buttonMessage, MessageType.buttonsMessage, {quoted: ftrol})
-                }
        break
 
    case 'credits':
