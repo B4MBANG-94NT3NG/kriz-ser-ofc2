@@ -2426,7 +2426,7 @@ wa.me/${owner}`
             bosco.relayWAMessage(osk)
 
 }
-              break
+             
      
      case 'antidelete':
      
