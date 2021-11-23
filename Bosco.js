@@ -2426,9 +2426,10 @@ wa.me/${owner}`
             bosco.relayWAMessage(osk)
 
 }
-     break
+              break
      
      case 'antidelete':
+     
       if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
            if (c === 'on'){
              antidelete = false
