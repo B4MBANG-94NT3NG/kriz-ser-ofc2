@@ -919,7 +919,7 @@ const ftrol = {
 			const vname_ = bosco.contacts[i] != undefined ? bosco.contacts[i].vname || bosco.contacts[i].notify : undefined
 		     ini_list.push({
 			 "displayName": 'Owner Arshid',
-			 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${bosco.user.name}`}\nORG: ꪶ͢ᴋʀɪᴢ sᴇʀꫂ⁩;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:ī.am  ꪶ 𝐾𝑅𝐼𝑆𝐻𝑁𝐴𝐷𝐴𝑆ꫂ⁩⁴⁰⁴\nEND:VCARD`
+			 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${bosco.user.name}`}\nORG: ꪶ͢ᴋʀɪᴢ sᴇʀꫂ⁩;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:ī.am  ꪶBAMBANG GANTENGꫂ⁩⁴⁰⁴\nEND:VCARD`
 			  })
 			  }
 			 hehe = await bosco.sendMessage(from, {
